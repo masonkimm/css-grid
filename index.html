@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid</title>
+    <style>
+      .wrapper {
+        display: grid;
+        grid-template-columns: 70% 30%;
+        /* grid-column-gap: 1em;
+        grid-row-gap: 1em; */
+        grid-gap: 1em;
+      }
+      .wrapper > div {
+        background: lightgray;
+        padding: 1em;
+      }
+      .wrapper > div:nth-child(odd) {
+        background: darkgray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus iste
+        deleniti architecto ab non at quos labore aliquam nam ipsa earum, ullam
+        hic voluptate sapiente voluptas cupiditate! Minus quibusdam ab atque
+        quis tenetur ratione alias blanditiis! Sequi ratione reiciendis magnam
+        mollitia quos ipsam vero doloribus maxime, esse corporis labore, at
+        necessitatibus ullam possimus, exercitationem dolorum? Ipsa quia
+        dignissimos possimus harum, eius veniam qui temporibus voluptate rem
+        labore sed a adipisci velit unde commodi sit veritatis hic explicabo
+        dicta eaque! Veritatis!
+      </div>
+      <div class="">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga qui
+        quibusdam ullam. Veritatis modi vero neque eum dignissimos magni tempore
+        fugit illo, tenetur quod? Molestiae soluta animi delectus officia
+        exercitationem.
+      </div>
+      <div class="">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus iste
+        deleniti architecto ab non at quos labore aliquam nam ipsa earum, ullam
+        hic voluptate sapiente voluptas cupiditate! Minus quibusdam ab atque
+        quis tenetur ratione alias blanditiis! Sequi ratione reiciendis magnam
+        mollitia quos ipsam vero doloribus maxime, esse corporis labore, at
+        necessitatibus ullam possimus, exercitationem dolorum? Ipsa quia
+        dignissimos possimus harum, eius veniam qui temporibus voluptate rem
+        labore sed a adipisci velit unde commodi sit veritatis hic explicabo
+        dicta eaque! Veritatis!
+      </div>
+      <div class="">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga qui
+        quibusdam ullam. Veritatis modi vero neque eum dignissimos magni tempore
+        fugit illo, tenetur quod? Molestiae soluta animi delectus officia
+        exercitationem.
+      </div>
+    </div>
+  </body>
+</html>
